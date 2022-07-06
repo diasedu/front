@@ -1,0 +1,45 @@
+.conteiner-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: orange;
+    padding: 10px;
+    column-gap: 5px;
+}
+
+.conteiner-grid > div {
+    background-color: white;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.conteiner-grid > header {
+    grid-column: 1 / 4;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+#hc {
+    grid-row: 2 / 5;
+    grid-area: 2 / 2 / span 3 / span 1;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;    
+}
+
+#rdp {
+    grid-area: 5 / 2 / span 1 / span 2;
+    background-color: green;
+    border: 6px solid purple;
+    color:beige;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px; 
+}
